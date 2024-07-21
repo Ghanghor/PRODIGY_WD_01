@@ -1,0 +1,133 @@
+body {
+    /* font-family: Arial, sans-serif; */
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav {
+    position: fixed;
+    width: 100%;
+    /* background-color: #333; */
+    background-color: #eaa0a2;
+    color: white;
+    top: 0;
+    z-index: 1000;
+    transition: background-color 0.3s ;
+    
+
+  }
+  .para{
+   font-size: 30px;
+   font-style: normal;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   color: chocolate;
+
+  }
+
+  .para2{
+    font-size: 30px;
+  }
+  
+  .uimages{
+    display: flex;
+    justify-content: space-between;
+
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  .maincontainer{
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4,fr);
+    justify-content: space-around;
+    
+  
+  }
+  
+  nav ul li {
+    padding: 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 28px;
+    transition: color 0.3s;
+  }
+  
+  nav ul li a:hover {
+    /* color: #ff6347; */
+   color: #000035; 
+  }
+  
+  section {
+    padding: 100px 20px;
+    margin-top: 60px;
+  }
+  
+  #home {
+    height: 100vh;
+    background-color: #f4f4f4;
+
+  
+  }
+  
+  #about  {
+    height: 120vh;
+
+    background-color: #eaeaea;
+    font-style: oblique;
+  }
+  #services{height: 150vh;
+
+    background-color: #eaeaea;
+    font-style: oblique;}
+
+    #contact{
+      height: 120vh;
+
+    background-color: #eaeaea;
+    font-style: oblique;
+    }
+  
+  .book{
+
+   border-radius: 20px;
+   border: 2px rgb(237, 209, 180) solid;
+   width: 250px;
+   box-shadow: black;
+   background-color: #eaeaea;
+   font-style: oblique;
+   font-size: 10px;
+   
+  .uta{
+    display: flex;
+    padding-left: 20px;
+    padding-top: 10px;
+  }
+  .conact{
+   size: 100px;
+  }
+  }
+
+  :hover .uta{
+    transition-property: transform;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+}
+
+.ppoga{
+  font-size: larger;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: oblique;
+  font-size: 20px;
+  
+}
